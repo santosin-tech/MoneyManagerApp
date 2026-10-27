@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "MoneyManagerApp",
+    "slug": "MoneyManagerApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "moneymanager",
+    "plugins": [
+      "expo-router",
+      "@react-native-community/datetimepicker",
+      "expo-sharing",
+      "expo-secure-store",
+      "@react-native-voice/voice"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.moneymanager"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#121212"
+      },
+      "package": "com.yourname.moneymanager"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
